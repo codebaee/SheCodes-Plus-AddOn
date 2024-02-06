@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Inputs Practice</title>
+  </head>
+  <body>
+    <form action="/submit">
+      <label for="email">What is your email address?</label
+      
+      <input type="email" name="email" id="email" />
+   
+      <label for="color">What is your favorite color?</label>
+      <input type="color" name="color" id="color" />
+      <!--Radio Buttons-->
+      <div>
+        <label>Dogs or Cats?</label>
+        <input type="radio" name="pet" id="cats" />
+        <label for="cats">Cats</label>
+        <input type="radio" name="pet" id="dogs" />
+        <label for="dogs">Dogs</label>
+      </div>
+
+      <!--Checkbox-->
+      <div>
+        <label>What pets do you have?</label>
+        <input type="checkbox" name="pet" id="cats" />
+        <label for="cats">cats</label>
+        <input type="checkbox" name="pet" id="dogs" />
+        <label for="dogs">dogs</label>
+        <input type="checkbox" name="pet" id="Turtles" />
+        <label for="Turtles">Turtles</label>
+      </div>
+
+      <div><input type="submit" value="Sign Up" /></div>
+    </form>
+  </body>
+</html>
