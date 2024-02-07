@@ -1,0 +1,13 @@
+body {
+  background-color: palevioletred;
+}
+
+select {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 8px;
+  min-width: 200px;
+  margin: 20px 0;
+  text-align: center;
+}
