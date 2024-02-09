@@ -4,20 +4,20 @@ body {
   background-color: palevioletred;
   font-family: "Courier New", Courier, monospace;
 }
-.country-list-dropdown,
-.country-list-container {
+.city-list-dropdown,
+.city-list-container {
   display: flex;
   justify-content: center;
   padding: 10px;
   font-size: 45px;
 }
-.country-list-container {
+.city-list-container {
   margin-bottom: 20px;
   /* width: 200px; Adjust the width as needed */
   height: 40px; /* Adjust the height as needed */
   font-size: 16px; /* Adjust the font size as needed */
 }
-.country-list-container select {
+.city-list-container select {
   color: black;
   width: 300px;
   height: 75px;
@@ -27,4 +27,5 @@ body {
   border: 1px solid pink;
   font-family: "Courier New", Courier, monospace;
   font-weight: 800;
+  font-size: 20px;
 }
